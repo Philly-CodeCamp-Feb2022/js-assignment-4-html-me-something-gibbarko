@@ -1,1 +1,48 @@
 /* Write your CSS here! */
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: rgb(171, 171, 235);
+	font-size: 62.5%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+header,
+main,
+footer {
+	font-size: 1.6em;
+}
+
+header,
+h2 {
+  text-align: center;
+}
+
+p {
+	padding: 1.25em;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 75%;
+}
