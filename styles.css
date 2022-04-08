@@ -1,12 +1,17 @@
 /* Write your CSS here! */
 body {
+  display: block;
 	width: 100%;
 	max-width: 1024px;
-	margin: 0 auto;
+	margin: 8px;
 	background-color: rgb(171, 171, 235);
 	font-size: 62.5%;
   padding-top: 60px;
   padding-bottom: 40px;
+}
+
+#mainHeading {
+  color: red;
 }
 
 figure {
@@ -45,4 +50,8 @@ footer p {
 
 img {
 	width: 75%;
+}
+
+.funParagraph{
+  color: green;
 }
